@@ -105,7 +105,7 @@ body{
     font-size: 14px;
     display: none;
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .humidity, .wind{
         font-size: 20px;
     }
@@ -114,11 +114,11 @@ body{
     }
     .search input{
         height: 50px;
-        width: 180px;
+        min-width: 100px;
     }
     .search button{
-        height: 50px;
-        width: 50px;
+        max-height: 50px;
+        max-width: 50px;
     }
     .search button img{
         width: 18px;
